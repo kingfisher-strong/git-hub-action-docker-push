@@ -28,6 +28,6 @@ jobs:
           docker build ./python -t snk0202/python:1.0.0
       - name: docker build nodejs
         run: |
-          docker build ./nodejs snk0202/nodejs:1.0.0  
+          docker build ./nodejs -t snk0202/nodejs:1.0.0  
         
           
