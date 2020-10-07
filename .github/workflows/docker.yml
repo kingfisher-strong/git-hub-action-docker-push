@@ -34,5 +34,9 @@ jobs:
       - name: docker build nodejs
         run: |
           docker build ./nodejs -t snk0202/nodejs:1.0.0  
+      - name: docker push
+        run: |
+          docker push snk0202/nodejs:1.0.0
+    
         
           
