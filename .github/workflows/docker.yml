@@ -37,6 +37,6 @@ jobs:
       - name: docker push
         run: |
           docker push snk0202/nodejs:${{ github.sha }}
-    
+          docker push snk0202/python:${{ github.sha }}
         
           
